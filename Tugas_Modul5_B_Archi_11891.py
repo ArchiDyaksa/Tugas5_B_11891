@@ -21,7 +21,7 @@ if os.path.exists(model_path):
             image_array = np.array(image) / 255.0  
             image_array = image_array.reshape(1, 28, 28, 1)  
 
-        st.title("Fashion MNIST Image Classifier xxxx") 
+        st.title("Fashion MNIST Image Classifier 1891") 
         st.write("Unggah satu atau lebih gambar item fashion (misalnya sepatu, tas, baju), dan model akan memprediksi kelasnya.")
 
         uploaded_files = st.file_uploader("Pilih gambar...", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
